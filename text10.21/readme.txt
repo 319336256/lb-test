@@ -3,8 +3,8 @@
 
 1.将两个字符利用字符串对象的方法变成一个字符,显示在页面id为h1的元素中
 答:         
-        var a = '123';
-        var b = '456';
+        var a = '134';
+        var b = '521';
         console.log(a.concat(b));
         c = a.concat();
         var d = document.getElementById('h1');

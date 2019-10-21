@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style></style>
+</head>
+<body>
+    <h5 id="h4"></h5>
+    <script>
+        var a = prompt("请输入验证码");
+        if (a.toLocaleLowerCase == 'sma' || a.toLocaleUpperCase == 'SMA') {
+            var h4 = document.getElementById('h4');
+            h4.innerHTML = a;
+        } else {
+            h4.innerHTML = a;
+        }
+    </script>
+</body>
+
+</html>

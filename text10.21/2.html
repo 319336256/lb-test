@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style></style>
+</head>
+
+<body>
+    <input type="" name="type" id="nit" value="" />
+    <button id="btn">登录</button>
+    <div id="mydiv"></div>
+    <script>
+        var int = document.getElementById('int');
+        var btn = document.getElementById('btn');
+        var mydiv = document.getElementById('mydiv');
+        btn.onclick = function () {
+            var num = int.value;
+            int.value = String;
+            if (num.length > 8) {
+                alert('存款不符');
+            } else {
+
+                var hh = num.padEnd(6, '0');
+                alert('存款为' + hh);
+                mydiv.innerHTML = hh;
+            }
+        }
+    </script>
+</body>
+
+</html>
